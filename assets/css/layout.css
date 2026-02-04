@@ -50,3 +50,10 @@ section {
   justify-content: space-between;
   align-items: center;
 }
+
+.hero {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

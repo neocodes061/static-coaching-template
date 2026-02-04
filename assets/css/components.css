@@ -15,6 +15,10 @@
   font-weight: 500;
 }
 
+.btn:hover {
+  background-color: #162fc7;
+}
+
 .logo {
   font-weight: 600;
 }
@@ -28,4 +32,27 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
+}
+
+.hero {
+  background-image: url("assets/hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  text-align: center;
+  padding: 3rem;
+  border-radius: 8px;
+}
+
+.hero-overlay h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-overlay p {
+  margin-bottom: 1.5rem;
 }
