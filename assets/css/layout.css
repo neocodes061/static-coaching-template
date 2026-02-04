@@ -1,11 +1,33 @@
-header {
+.site-header {
   border-bottom: 1px solid #e5e7eb;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 1.5rem 0;
 }
 
-header h1 {
+.site-header h1 {
   margin: 0;
 }
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .header-inner {
+    flex-direction: column;
+  }
+
+  .nav {
+    display: none;
+  }
+}
+
 
 
 footer {
@@ -43,12 +65,6 @@ section {
   .grid-3 {
     grid-template-columns: 1fr;
   }
-}
-
-.nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .hero {
