@@ -56,3 +56,28 @@ nav a:hover {
 .hero-overlay p {
   margin-bottom: 1.5rem;
 }
+
+
+
+.results {
+  background: var(--bg-light);
+  text-align: center;
+}
+
+.results h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.stat h3 {
+  font-size: 2.2rem;
+  color: var(--primary);
+}
+
+.stat p {
+  color: var(--text-light);
+}
+
+.results-proof li {
+  margin: 12px 0;
+}

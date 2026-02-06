@@ -76,3 +76,18 @@ section {
   align-items: center;
   justify-content: center;
 }
+
+
+/* layout.css */
+
+.results-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.results-proof ul {
+  max-width: 600px;
+  margin: 0 auto;
+}
