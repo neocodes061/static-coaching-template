@@ -29,6 +29,11 @@
   color: #fff;
 }
 
+.cta .btn {
+  margin-top: 1rem;
+}
+
+
 .card {
   padding: 1.5rem;
   border: 1px solid #e5e7eb;
