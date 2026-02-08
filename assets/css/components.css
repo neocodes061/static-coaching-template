@@ -69,7 +69,17 @@
 @media (max-width: 768px) {
 
   .btn {
-    width: 100%;
+    width: 60%;
+    text-align: center;
+  }
+
+  .btn-primary{
+    width: 60%;
+    text-align: center;
+  }
+
+  .btn-secondary{
+    width: 60%;
     text-align: center;
   }
 
