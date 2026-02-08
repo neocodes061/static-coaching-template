@@ -46,6 +46,26 @@
   display: block;
 }
 
+.stat-card {
+  min-width: 200px;
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  text-align: center;
+  background: #fff;
+}
+
+.stat-card h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.stat-card p {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+}
+
+
 @media (max-width: 768px) {
 
   .btn {
