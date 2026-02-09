@@ -18,7 +18,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 64px;
   background: #fff;
   z-index: 1000;
   border-bottom: 1px solid #e5e7eb;
@@ -29,8 +28,8 @@
 
 
 .hero {
-  height:calc(100vh-64px);
-  background: url("../images/hero.jpg") center/cover no-repeat;
+  height: 70vh;
+  background: url("../images/hero.jpg") cover no-repeat;
   position: relative;
 }
 
@@ -104,6 +103,7 @@
   .hero {
     height: auto;
     min-height: 60vh;
+    margin-top: auto;
   }
 
   .hero-overlay {
