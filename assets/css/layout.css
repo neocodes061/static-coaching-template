@@ -29,8 +29,11 @@
 
 .hero {
   height: 70vh;
-  background: url(assests/images/img.jgp) cover no-repeat;
   position: relative;
+  background-image: url("assets/images/img.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
