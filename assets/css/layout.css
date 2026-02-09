@@ -29,7 +29,7 @@
 
 .hero {
   height: 70vh;
-  background: url("../images/hero.jpg") cover no-repeat;
+  background: url(assests/images/img.jgp) cover no-repeat;
   position: relative;
 }
 
