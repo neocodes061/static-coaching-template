@@ -29,7 +29,7 @@
 
 
 .hero {
-  height:(70vh-64px);
+  height:calc(100vh-64px);
   background: url("../images/hero.jpg") center/cover no-repeat;
   position: relative;
 }
